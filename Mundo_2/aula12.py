@@ -1,5 +1,5 @@
 # Aula Prática 
-
+# Desafios do 35 ao 44
 nome = str(input("Qual oseu nome? ")).strip()
 
 if  nome == "Luan":
