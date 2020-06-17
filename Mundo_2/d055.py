@@ -25,4 +25,4 @@ for c in range(1,5):
         nom = "Não existe Homem na lista."
 print("Homem mais velho: {}".format(n))
 print("Média de idade do grupo: {}".format(media))
-print("Quatidade de mulheres menor de 20 anos: {}".format(cont))
+print("Quatidade de mulheres com menos de 20 anos: {}".format(cont))
