@@ -1,5 +1,5 @@
 # Aula Prática 
-# Desafios do 45 ao 51
+# Desafios do 45 ao 55
 # Exemplo 1
 '''n = int(input("Digite um número: "))
 for c in range(0, n+1):
