@@ -14,3 +14,16 @@ while n != num:
         print("Tente novamente até acerta.")
 
 print('Você tentou {} vezes, para ganhar.'.format(soma))
+
+'''OU
+from random import randint
+num = randint(0, 10)
+
+acertou = False
+palpites = 0
+while not acertou:
+    jogador = int(input("Qual é seu palpite?"))
+    palpites += 1
+    if jogador == computador:
+        acertou = True
+print("Acertou com {} tentativas. Parabéns!".format(palpites))'''
