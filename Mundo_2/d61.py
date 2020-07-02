@@ -3,9 +3,18 @@
 primeiro = int(input("Primeiro termo: "))
 razão = int(input("Razão: "))
 decimo = primeiro + (10 - 1)*razão
-n = primeiro
-fim = 0
-while (n < decimo + razão):
-    print("{} ".format(n), end="-> ")
-    n = n + razão
-print("ACABOU")
+c = 1
+print("Condição de parada igual á 0.")
+while c <= 10:
+    print("{}º Termo = {} ".format(c, primeiro), end="-> ")
+    primeiro = primeiro + razão
+    c += 1 
+m = 1 
+while m != 0:
+    m = int(input("Deseja mostrar maistermos? Quantos? "))
+    d = c
+    while d <(c + m):
+        print("{}º Termo = {}".format(d, primeiro), end="-> ")
+        primeiro = primeiro + razão
+        d += 1 
+print("FIM DO PROGRAMA")
