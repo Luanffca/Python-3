@@ -8,5 +8,5 @@ while n != 999:
     n = int(input("Digite um valor: "))
     if n != 999:
         soma += 1
-        total = total + n
+        total += n
 print("Você digitou {} termos e a soma  de todos eles é {}".format(soma, total))
