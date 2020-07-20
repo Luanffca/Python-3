@@ -1,0 +1,1 @@
+# Faça um programa que mostre um tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido solicitado for NEGATIVO.
