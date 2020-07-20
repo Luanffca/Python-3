@@ -17,3 +17,17 @@ if n % 2 != 0:
         c += d
         d += c
         a += 2 
+
+'''ou
+n = int(input("Quantos termos você quer mostrar? "))
+t1 = 0 
+t2 = 1
+print = "{} ~ {}" .format((t1, t2), end=" ")
+cont = 3
+while <= n:
+    t3 = t1 = t2
+    print(" ~ {}!".format(t3), end=" ")
+    t1 = t2
+    t2 = t3
+    cont += 1
+print(Acabou)'''
