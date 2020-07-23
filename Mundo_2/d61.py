@@ -11,7 +11,7 @@ while c <= 10:
     c += 1 
 m = 1 
 while m != 0:
-    m = int(input("Deseja mostrar maistermos? Quantos? "))
+    m = int(input("Deseja mostrar mais termos? Quantos? "))
     d = c
     while d <(c + m):
         print("{}º Termo = {}".format(d, primeiro), end="-> ")
