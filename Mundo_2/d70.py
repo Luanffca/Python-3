@@ -24,4 +24,4 @@ while True:
         cedulatotal = 0
         if total == 0:
             break
-print("Fim")
+print("VOLTE SEMPRE.")
