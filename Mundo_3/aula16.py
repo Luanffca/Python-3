@@ -34,7 +34,7 @@ for comida in lanche:
     print(f'Eu vou comer {comida}')'''
 
 # EXEMPLO 2: MOSTRANDO A POSiÇÃO
-'''lanche = ("Hambúrquer", "Suco", "Pizza", "Pudim")
+''''lanche = ("Hambúrquer", "Suco", "Pizza", "Pudim")
 for cont in range(0, len(lanche)):
     print(f'Eu vou comer {lanche[cont]} na posição {cont}')'''
 
@@ -42,6 +42,11 @@ for cont in range(0, len(lanche)):
 '''lanche = ("Hambúrquer", "Suco", "Pizza", "Pudim")
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')'''
+
+# EXEMPLO 4: MOSTRANDO A POSiÇÃO INICIANDO DO 1
+'''lanche = ("Hambúrquer", "Suco", "Pizza", "Pudim")
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]} na posição {cont + 1}')'''
 
 # OUTROS EXEMPLOS
 
