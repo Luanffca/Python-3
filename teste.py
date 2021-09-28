@@ -20,7 +20,7 @@ from os import path, walk, chdir, getcwd, listdir
 caminho = input('Digite o caminho: ')
 
 chdir(caminho)
-#print(getcwd())
+print(getcwd())
 
 def recursive_walk(caminho):
 
@@ -29,7 +29,7 @@ def recursive_walk(caminho):
     for raiz, subdirs, arquivos in walk(caminho):
         for f in arquivos:
             arquivo = path.join(raiz, f)
-            lista.append(dict(arquivo=arquivo, tamanho=path.getsize(arquivo)))
+            lista.append(dict(tamanho=path.getsize(arquivo)))
 
         for subdir in subdirs:
             lista += recursive_walk(subdir)
