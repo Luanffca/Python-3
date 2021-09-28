@@ -38,5 +38,7 @@ def recursive_walk(caminho):
     return lista
 
 lista = recursive_walk(caminho)
-
-print(lista,'\n')
+for c in listdir():
+    for lista in c:
+        print(c)
+        print(lista)
