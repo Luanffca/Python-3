@@ -7,7 +7,6 @@ engines = openai.Engine.list()
 # for engine in engines.data:
 #     print(engine.id)  # imprimindo várias engines
 
-
 question = ''' qual o seu sabor favorito de sorvete ? '''
 answer = openai.Completion.create(engine='text-davinci-001', prompt=question,
                          max_tokens=1000)  # tokens são as "palavras mais relevantes"
